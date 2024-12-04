@@ -1,103 +1,110 @@
+import pic1 from '../assets/pic1.jpg'
+import pic2 from '../assets/pic2.jpg'
+import pic3 from '../assets/pic3.jpg'
+import pic4 from '../assets/pic4.jpg'
+import pic5 from '../assets/pic5.jpg'
+import pic6 from '../assets/pic6.jpg'
+
 export const PROFILE_DATA = {
   profilePicture: "https://via.placeholder.com/150",
-  name: "Kai Rodriguez",
-  tagline: `A full-stack developer passionate about creating innovative solutions and bridging technology with user-centric design.`,
-  jobTitle: "Senior Software Engineer",
-  location: "San Francisco, CA",
+  name: "JORGE MACABENTA",
+  tagline: `Hi, I'm Jorge, an openly gay individual passionate about advocating for LGBTQ+ rights and fostering inclusive communities.`,
+  jobTitle: "Professional LGBTQ+ Supporter", 
+  location: "DAVAO CITY",
   yearsOfExperience: 6,
   skills: [
-    "Python",
-    "Django",
-    "TypeScript",
-    "Vue.js",
-    "Docker",
-    "Kubernetes",
-    "GraphQL",
-    "AWS",
-    "MongoDB",
-    "Redis",
-    "SQL",
-    "CI/CD",
+    "I",
+    "Lazy and",
+    "Do",
+    "Nothing",
+    "even",
+    "a simple",
+    "chores",
+    "in my",
+    "house",
+    "is",
+    "very",
+    "Tiring",
   ],
-  email: "kai.rodriguez@techpro.com",
+  email: "jorgeay@gmail.com",
   phone: "415-789-1234",
-  website: "https://www.linkedin.com/in/kairodriguez/",
+  website: "https://www.facebook.com/",
 };
 
 export const SKILLS = [
   {
     id: "01",
-    image: "https://via.placeholder.com/300",
-    title: "Python",
-    comment: `Python is my primary language of choice. I've used it extensively in backend development, data analysis, and building scalable web applications across various industries.`,
+    image: pic1,
+    title: "Hi",
+    comment: `Your pride and joy are absolutely radiant in this photo!`,
   },
   {
     id: "02",
-    image: "https://via.placeholder.com/300",
-    title: "Vue.js",
-    comment: `I'm deeply passionate about creating reactive and responsive user interfaces with Vue.js. My approach focuses on clean architecture and component-based design.`,
+    image: pic2,
+    title: "I'm Jorge",
+    comment: `This picture is serving pure, unapologetic fabulousness!`,
   },
   {
     id: "03",
-    image: "https://via.placeholder.com/300",
-    title: "Docker",
-    comment: `Containerization is crucial for modern software deployment. I've implemented Docker solutions that streamline development workflows and ensure consistent environments.`,
+    image: pic3,
+    title: "Supporter",
+    comment: `You look like you're ready to slay the world with that confidence!`,
   },
   {
     id: "04",
-    image: "https://via.placeholder.com/300",
-    title: "AWS",
-    comment: `Amazon Web Services is my go-to cloud platform. I've designed and deployed scalable cloud architectures, leveraging services like EC2, S3, and Lambda.`,
+    image: pic4,
+    title: "of",
+    comment: `Your true colors are shining through beautifully!`,
   },
   {
     id: "05",
-    image: "https://via.placeholder.com/300",
-    title: "GraphQL",
-    comment: `GraphQL has revolutionized how I approach API design. I've implemented efficient, flexible data querying solutions that improve overall system performance.`,
+    image: pic5,
+    title: "LGBTQ+",
+    comment: `This image is a perfect celebration of your authentic self.`,
   },
   {
     id: "06",
-    image: "https://via.placeholder.com/300",
-    title: "CI/CD",
-    comment: `Continuous Integration and Continuous Deployment are critical for modern software development. I've set up robust pipelines that automate testing and deployment processes.`,
+    image: pic6,
+    title: "Community",
+    comment: `You look absolutely fierce and fabulous!`,
   },
 ];
 
 export const WORK_EXPERIENCE = [
   {
     id: "01",
-    company: "TechInnovate Solutions",
-    position: "Senior Software Engineer",
+    company: "LGBTQ+ COMMUNITY ADVOCACY",
+    position: "Director",
     duration: "2021 - Present",
-    description: "Leading a team of developers in creating enterprise-level web applications. Responsible for architecture design, code reviews, and implementing cutting-edge technologies."
+    description: "Leading a full of lgbtq+, fulfilled my future dream goals. It's a dream for many lgbtq members in my community"
   },
   {
     id: "02",
-    company: "DataStream Analytics",
-    position: "Backend Developer",
+    company: "Gender Radar INC",
+    position: "Person Analysty",
     duration: "2019 - 2021",
-    description: "Developed scalable backend services using Python and Django. Implemented complex data processing pipelines and optimized database performance for large-scale data applications."
+    description: "I judged person's identity based on how they act, look, and etc."
   },
   {
     id: "03",
-    company: "StartUp Incubator",
-    position: "Full Stack Developer",
+    company: "Breeding Incubator",
+    position: "Nothing",
     duration: "2017 - 2019",
-    description: "Worked on multiple startup projects, creating MVPs and helping early-stage companies bring their technological visions to life. Gained extensive experience in rapid prototyping and agile development."
+    description: "I don't do nothing cause i dont know what i am applying for"
   },
 ];
 
 export const ABOUT_ME_DATA = {
-  introduction: "Hello! I'm Kai Rodriguez, a versatile software engineer with a passion for solving complex technological challenges and creating innovative digital solutions.",
-  background: "With a Master's degree in Computer Science from Stanford University, I've developed a strong foundation in software engineering principles and emerging technologies.",
-  skills: "My technical expertise spans full-stack development, cloud computing, and advanced programming paradigms. I specialize in creating scalable, efficient, and user-friendly software solutions.",
-  projects: "Notable projects include a machine learning-powered recommendation system, a real-time collaboration platform, and a distributed data processing framework that improved system efficiency by 40%.",
-  interests: "Beyond coding, I'm an avid rock climber, amateur photographer, and enjoy exploring the intersection of technology and sustainable design. I'm also passionate about mentoring young developers.",
-  careerGoals: "My objective is to continue pushing the boundaries of software engineering, contribute to meaningful technological innovations, and make a positive impact through technology.",
+  introduction: "Supporting the LGBTQ+ community is about recognizing and celebrating the diversity and individuality of every person,",
+  background: "regardless of their sexual orientation or gender identity. It's about standing up against discrimination and promoting inclusivity in all spheres of life—from workplaces to social settings.",
+  skills: "By advocating for equal rights and providing a safe and supportive environment, we can help create a society where everyone is free to be their authentic selves.",
+  projects: "This includes raising awareness, educating others, and being an ally in times of need. Together, we can build a world that embraces and respects the LGBTQ+ community, ensuring that love and acceptance prevail over prejudice and exclusion. 🌈",
+  interests: "",
+  careerGoals: "",
 
   stats: {
-    yearsOfExperience: '6+',
-    numberOfProjects: 15,
-    certificationsEarned: 6,
+    yearsOfExperience: '10+',
+    numberOfProjects: 69,
+    certificationsEarned: 0,
   },
 };

@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { PROFILE_DATA } from "../utils/data";
 
-import PROFILE_PIC from "../assets/Temporary_Profile.jpg";
+import PROFILE_PIC from "../assets/profile.jpg"
 
 const Hero = () => {
   const {
@@ -25,12 +25,12 @@ const Hero = () => {
       id="hero"
     >
       <div className="flex-1 text-center md:text-left z-[1]">
-        <span className="text-xs md:text-sm text-black font-thin">
-          A Bubble.io Developer
+        <span className="text-m md:text-4xl text-black font-thin">
+          I am a supporter of LGBTQ+
         </span>
 
-        <h2 className="text-3xl mt-3 md:text-5xl text-black md:mt-5">{name}</h2>
-        <p className="w-full text-black text-xs font-light leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-8">{tagline}</p>
+        <h2 className="text-5xl mt-3 md:text-8xl text-black md:mt-5">JORGE MACABENTA</h2>
+        <p className="w-full text-black text-xl font-light leading-5 my-6 lg:w-[38vw] md:text-2xl md:leading-6 md:my-8">{tagline}</p>
 
         <button className="primary-btn text-white" onClick={() => window.scrollTo({ top: document.getElementById('contact').offsetTop - 80, behavior: 'smooth' })}> Contact Me </button>
 
@@ -40,13 +40,13 @@ const Hero = () => {
 
       <div className="flex gap-5 justify-center md:gap-3 lg:gap-5 z-[1]">
         <div className="w-[403px] bg-gradient-to-br from-white-950 to-slate-900 rounded-lg border border-white-950 p-6">
-          <div className="flex items-center justify-center">
-            <img className="hero-img" src={PROFILE_PIC} alt="img one" />
+          <div className="flex items-center justify-center md:shadow-l">
+            <img className="hero-img w-[260px] h-[300px] drop-shadow-md" src={PROFILE_PIC} alt="img one" />
           </div>
 
           <div className="bg-cardbg rounded-md text-center mt-3 p-4 ">
-            <h5 className="text-sm md:text-base text-white">{name}</h5>
-            <p className="text-slate-500 text-xs md:font-medium mt-1">
+            <h5 className="text-sm md:text-2xl text-white">{name}</h5>
+            <p className="text-white text-xl md:font-medium mt-1">
               {jobTitle}
             </p>
 
@@ -118,7 +118,7 @@ const InfoTile = ({ icon, text }) => {
   return (
     <div className="flex items-center gap-4 bg-cardbg p-4 mt-3 rounded-md">
       {icon}
-      <p className="text-xs md:text-sm font-normal">{text}</p>
+      <p className="text-s md:text-sm font-normal">{text}</p>
     </div>
   );
 };
